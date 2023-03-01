@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+    transition: 0.3s;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Quicksand', sans-serif;
+}
+
+body {
+    background: linear-gradient(0deg, rgb(0, 0, 0, 0.9), rgb(0, 0, 0)), url(../images/background.png);
+    background-attachment: fixed;
+}
+
+.navigation {
+    position: relative;
+    padding: 20px;
+}
+.navigation .links {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.navigation .links a {
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+}
+.navigation .links a:hover {
+    color: rgb(127, 255, 212);
+}
+
+.page {
+    position: relative;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    padding: 20px;
+}
+.page p {
+    color: rgb(230, 230, 230);
+    font-size: 28px;
+}
+.page span {
+    color: rgb(175, 175, 175);
+    font-size: 18px;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
+.card {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    max-width: 200px;
+    border-radius: 20px;
+    gap: 10px;
+    margin: 10px;
+}
+.card img {
+    max-width: 200px;
+    height: auto;
+    object-fit: cover;
+    border-radius: 20px;
+}
+.card .title {
+    background-color: rgb(10, 10, 20);
+    border: 2px solid rgb(20, 20, 45);
+    border-radius: 20px;
+    padding: 10px;
+}
+.card .title a {
+    color: rgb(230, 230, 230);
+    font-size: 16px;
+    margin-bottom: 20px;
+}
