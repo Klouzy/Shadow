@@ -1,4 +1,3 @@
-
 fetch('https://kitsu.io/api/edge/anime?page[limit]=20&sort=-createdAt')
 	.then(response => response.json())
 	.then(data => {
