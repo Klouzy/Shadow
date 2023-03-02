@@ -83,7 +83,6 @@ body {
 .card .title {
     background-color: rgb(10, 10, 20);
     border: 2px solid rgb(20, 20, 45);
-    cursor: pointer;
     border-radius: 20px;
     padding: 10px;
 }
@@ -103,19 +102,6 @@ body {
     margin-left: 10px;
 }
 .card .status p {
-    color: rgb(230, 230, 230);
-}
-.card .type {
-    position: absolute;
-    background-color: rgb(230, 45, 30);
-    border: 2px solid rgb(160, 35, 25);
-    cursor: pointer;
-    border-radius: 20px;
-    padding: 2px 10px;
-    margin-top: 10px;
-    margin-left: 140px;
-}
-.card .type p {
     color: rgb(230, 230, 230);
 }
 

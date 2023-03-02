@@ -1,9 +1,9 @@
-const api = 'https://kitsu.io/api/edge/anime?page[limit]=20&sort=popularityRank';
+const api = 'https://kitsu.io/api/edge/anime?page[limit]=20&filter[status]=upcoming&sort=averageRating';
 
 fetch(api)
 	.then(response => response.json())
 	.then(data => {
-			const container = document.getElementById('popular-anime-container');
+			const container = document.getElementById('upcoming-anime-container');
 				data.data.forEach(anime => {
 					const title = anime.attributes.canonicalTitle;
 					const image = anime.attributes.posterImage.large;

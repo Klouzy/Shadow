@@ -18,9 +18,18 @@ body {
     position: relative;
     padding: 20px;
 }
+.navigation .brand {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+.navigation .brand img {
+    width: 85px;
+}
 .navigation .links {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     gap: 20px;
 }
 .navigation .links a {
@@ -28,6 +37,9 @@ body {
     font-size: 20px;
 }
 .navigation .links a:hover {
+    color: rgb(127, 255, 212);
+}
+.navigation .links .active {
     color: rgb(127, 255, 212);
 }
 
@@ -71,6 +83,7 @@ body {
 .card .title {
     background-color: rgb(10, 10, 20);
     border: 2px solid rgb(20, 20, 45);
+    cursor: pointer;
     border-radius: 20px;
     padding: 10px;
 }
@@ -78,4 +91,165 @@ body {
     color: rgb(230, 230, 230);
     font-size: 16px;
     margin-bottom: 20px;
+}
+.card .status {
+    position: absolute;
+    background-color: rgb(10, 10, 20);
+    border: 2px solid rgb(20, 20, 45);
+    cursor: pointer;
+    border-radius: 20px;
+    padding: 2px 10px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.card .status p {
+    color: rgb(230, 230, 230);
+}
+.card .type {
+    position: absolute;
+    background-color: rgb(230, 45, 30);
+    border: 2px solid rgb(160, 35, 25);
+    cursor: pointer;
+    border-radius: 20px;
+    padding: 2px 10px;
+    margin-top: 10px;
+    margin-left: 140px;
+}
+.card .type p {
+    color: rgb(230, 230, 230);
+}
+
+.movies {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    max-width: 200px;
+    border-radius: 20px;
+    gap: 10px;
+    margin: 10px;
+}
+.movies img {
+    max-width: 200px;
+    height: auto;
+    object-fit: cover;
+    border-radius: 20px;
+}
+.movies .title {
+    background-color: rgb(10, 10, 20);
+    border: 2px solid rgb(20, 20, 45);
+    cursor: pointer;
+    border-radius: 20px;
+    padding: 10px;
+}
+.movies .title a {
+    color: rgb(230, 230, 230);
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+.movies .status {
+    position: absolute;
+    background-color: rgb(10, 10, 20);
+    border: 2px solid rgb(20, 20, 45);
+    cursor: pointer;
+    border-radius: 20px;
+    padding: 2px 10px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.movies .status p {
+    color: rgb(230, 230, 230);
+}
+.movies .type {
+    position: absolute;
+    background-color: rgb(230, 45, 30);
+    border: 2px solid rgb(160, 35, 25);
+    cursor: pointer;
+    border-radius: 20px;
+    padding: 2px 10px;
+    margin-top: 10px;
+    margin-left: 140px;
+}
+.movies .type p {
+    color: rgb(230, 230, 230);
+}
+
+.recom {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    max-width: 200px;
+    border-radius: 20px;
+    gap: 10px;
+    margin: 10px;
+}
+.recom img {
+    max-width: 200px;
+    height: auto;
+    object-fit: cover;
+    border-radius: 20px;
+}
+.recom .title {
+    background-color: rgb(10, 10, 20);
+    border: 2px solid rgb(20, 20, 45);
+    cursor: pointer;
+    border-radius: 20px;
+    padding: 10px;
+}
+.recom .title a {
+    color: rgb(230, 230, 230);
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+.recom .status {
+    position: absolute;
+    background-color: rgb(10, 10, 20);
+    border: 2px solid rgb(20, 20, 45);
+    cursor: pointer;
+    border-radius: 20px;
+    padding: 2px 10px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.recom .status p {
+    color: rgb(230, 230, 230);
+}
+.recom .type {
+    position: absolute;
+    background-color: rgb(230, 45, 30);
+    border: 2px solid rgb(160, 35, 25);
+    cursor: pointer;
+    border-radius: 20px;
+    padding: 2px 10px;
+    margin-top: 10px;
+    margin-left: 140px;
+}
+.recom .type p {
+    color: rgb(230, 230, 230);
+}
+
+.footer {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 40px;
+}
+.footer p {
+    color: rgb(230, 230, 230);
+    font-size: 16px;
+}
+
+
+
+::-webkit-scrollbar {
+    width: 5px;
+}
+::-webkit-scrollbar-track {
+    background-color: rgb(20, 20, 45);
+}
+::-webkit-scrollbar-thumb {
+    background-color: rgb(175, 175, 175);
+}
+::-webkit-scrollbar-thumb:hover {
+    background-color: rgb(255, 255, 255);
 }
