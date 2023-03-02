@@ -10,8 +10,12 @@
 }
 
 body {
-    background: linear-gradient(0deg, rgb(0, 0, 0, 0.9), rgb(0, 0, 0)), url(../images/background.png);
+    background: linear-gradient(0deg, rgb(0, 0, 0, 0.9), rgb(0, 0, 0)),
+    url(https://images6.alphacoders.com/785/thumb-1920-785425.png);
     background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .navigation {
@@ -24,7 +28,7 @@ body {
     padding: 20px;
 }
 .navigation .brand img {
-    width: 85px;
+    width: 200px;
 }
 .navigation .links {
     display: flex;

@@ -1,4 +1,4 @@
-const api = 'https://kitsu.io/api/edge/anime?page[limit]=20&sort=-createdAt';
+const api = 'https://kitsu.io/api/edge/anime?page[limit]=20&sort=-updatedAt';
 const recomApi = 'https://kitsu.io/api/edge/anime?page[limit]=12&sort=ratingRank';
 const moviesApi = 'https://kitsu.io/api/edge/anime?page[limit]=12&filter[subtype]=movie&sort=popularityRank';
 
