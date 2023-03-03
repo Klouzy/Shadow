@@ -1,4 +1,4 @@
-const api = 'https://kitsu.io/api/edge/anime?page[limit]=20&sort=popularityRank';
+const api = 'https://kitsu.io/api/edge/trending/anime';
 
 fetch(api)
 	.then(response => response.json())

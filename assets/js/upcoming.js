@@ -1,6 +1,6 @@
 const api = 'https://kitsu.io/api/edge/anime?page[limit]=20&filter[status]=upcoming&sort=averageRating';
 
-fetch(api)
+	fetch(api)
 	.then(response => response.json())
 	.then(data => {
 			const container = document.getElementById('upcoming-anime-container');

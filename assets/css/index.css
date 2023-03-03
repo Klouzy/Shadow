@@ -231,14 +231,14 @@ body {
     color: rgb(230, 230, 230);
 }
 
-.footer {
+#footer {
     position: relative;
     display: flex;
     justify-content: center;
     text-align: center;
     padding: 40px;
 }
-.footer p {
+#footer p {
     color: rgb(230, 230, 230);
     font-size: 16px;
 }
